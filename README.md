@@ -64,5 +64,5 @@ curl(allTestFiles)
 
 Note in particular the `config` options on the `src` package.
 The `karma-cache` loader mangles resources for lookups consistent with Karma's deep caching.
-I'd like to move this to a conceptually pure API, but I don't have the energy to build exotic use cases to test yet.
-For now you'll have to trudge through the source a little--I'd appreciate links to exotic use cases under the issue tracker.
+I'd like to move this to a conceptually cleaner API, but I don't have the energy to build exotic use cases for testing (yet).
+For now you'll have to trudge through the source a little--I'd appreciate links to exotic use cases under the issue tracker for the forthcoming day of reckoning.
