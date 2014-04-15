@@ -1,6 +1,6 @@
 {
   "name": "karma-curl-amd",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Karma testing for Curl AMD projects.",
   "main": "./index.js",
   "repository": {
@@ -17,7 +17,7 @@
     "email": "popham@uw.edu"
   },
   "peerDependencies": {
-    "karma": ">=0.9",
+    "karma": ">=0.12",
     "curl-amd": ">=0.8"
   },
   "license": "MIT",
