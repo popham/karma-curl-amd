@@ -1,10 +1,10 @@
 Adapter for the Curl AMD loader.
 ================================
 
-Adapted from [karma-requirejs](/karma-runner/karma-requirejs).
-See [emscripten-treeviz](/popham/emscripten-treeviz) for a project configured to use karma-curl-amd.
+Adapted from [karma-requirejs](https://github.com/karma-runner/karma-requirejs).
+See [emscripten-treeviz](https://github.com/popham/emscripten-treeviz) for a project configured to use karma-curl-amd.
 
-Analogous to [karma-requirejs](/karma-runner/karma-requirejs), your `karma.conf.js` must include all of the files that need serving, e.g.
+Analogous to [karma-requirejs](https://github.com/karma-runner/karma-requirejs), your `karma.conf.js` must include all of the files that need serving, e.g.
 ```
 module.exports = function(config) {
 config.set({
@@ -21,7 +21,7 @@ config.set({
 });
 ```
 
-Again following [karma-requirejs](/karma-runner/karma-requirejs), your `test-main.js` must normalize paths relative to Curl's configured `baseUrl`.
+Again following [karma-requirejs](https://github.com/karma-runner/karma-requirejs), your `test-main.js` must normalize paths relative to Curl's configured `baseUrl`.
 To use Karma's deep caching, watched packages should be configured similar to the `src` package:
 ```
 var allTestFiles = [];
