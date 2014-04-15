@@ -1,4 +1,4 @@
-W(function(karma) {
+(function(karma) {
     // Let `test-main.js` take care of determining when resources are available.
     karma.loaded = function() {};
 
