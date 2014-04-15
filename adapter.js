@@ -1,4 +1,4 @@
-(function(karma) {
+W(function(karma) {
     // Let `test-main.js` take care of determining when resources are available.
     karma.loaded = function() {};
 
@@ -8,7 +8,7 @@
             baseUrl: "base/",
             paths: {
                 curl: 'node_modules/curl-amd/src/curl',
-                'karma-cache': 'node_modules/karma-curljs/caching-plugin'
+                'karma-cache': 'node_modules/karma-curl-amd/caching-plugin'
             }
         };
 
