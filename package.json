@@ -1,0 +1,29 @@
+{
+  "name": "karma-curl-amd",
+  "version": "0.0.1",
+  "description": "Karma testing for Curl AMD projects.",
+  "main": "./index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/popham/karma-curl-amd.git"
+  },
+  "keywords": [
+    "karma-plugin",
+    "karma-adapter",
+    "curl-amd"
+  ],
+  "author": {
+    "name": "Tim Popham",
+    "email": "popham@uw.edu"
+  },
+  "peerDependencies": {
+    "karma": ">=0.9",
+    "curl-amd": ">=0.8"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/popham/karma-curl-amd/issues"
+  },
+  "homepage": "https://github.com/popham/karma-curl-amd"
+}
